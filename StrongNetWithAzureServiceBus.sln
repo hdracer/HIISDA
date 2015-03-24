@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrongNetWithAzureServiceBus", "StrongNetWithAzureServiceBus\StrongNetWithAzureServiceBus.csproj", "{61FD505D-0EC0-4F04-B0F1-995B0684C5AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security.Cryptography", "Security.Cryptography\src\Security.Cryptography.csproj", "{BC2A6C7D-B214-4F63-8D78-49485FE47020}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://jwsecurecode.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = StrongNetWithAzureServiceBus\\StrongNetWithAzureServiceBus.csproj
+		SccProjectName1 = StrongNetWithAzureServiceBus
+		SccLocalPath1 = StrongNetWithAzureServiceBus
+		SccProjectUniqueName2 = Security.Cryptography\\src\\Security.Cryptography.csproj
+		SccProjectName2 = Security.Cryptography/src
+		SccLocalPath2 = Security.Cryptography\\src
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61FD505D-0EC0-4F04-B0F1-995B0684C5AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61FD505D-0EC0-4F04-B0F1-995B0684C5AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61FD505D-0EC0-4F04-B0F1-995B0684C5AE}.Debug|x64.ActiveCfg = Debug|x64
+		{61FD505D-0EC0-4F04-B0F1-995B0684C5AE}.Debug|x64.Build.0 = Debug|x64
+		{61FD505D-0EC0-4F04-B0F1-995B0684C5AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61FD505D-0EC0-4F04-B0F1-995B0684C5AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61FD505D-0EC0-4F04-B0F1-995B0684C5AE}.Release|x64.ActiveCfg = Release|x64
+		{61FD505D-0EC0-4F04-B0F1-995B0684C5AE}.Release|x64.Build.0 = Release|x64
+		{BC2A6C7D-B214-4F63-8D78-49485FE47020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC2A6C7D-B214-4F63-8D78-49485FE47020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC2A6C7D-B214-4F63-8D78-49485FE47020}.Debug|x64.ActiveCfg = Debug|x64
+		{BC2A6C7D-B214-4F63-8D78-49485FE47020}.Debug|x64.Build.0 = Debug|x64
+		{BC2A6C7D-B214-4F63-8D78-49485FE47020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC2A6C7D-B214-4F63-8D78-49485FE47020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC2A6C7D-B214-4F63-8D78-49485FE47020}.Release|x64.ActiveCfg = Release|x64
+		{BC2A6C7D-B214-4F63-8D78-49485FE47020}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
