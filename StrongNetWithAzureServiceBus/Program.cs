@@ -355,7 +355,7 @@ namespace StrongNetWithAzureServiceBus
             CngKey publisherPublic = CngKey.Import(
                 publicKey,
                 CngKeyBlobFormat.GenericPublicBlob);
-            RSACng rsaCng = new RSACng(publisherPublic);
+            Security.Cryptography.RSACng rsaCng = new Security.Cryptography.RSACng(publisherPublic);
             if (false == rsaCng.VerifyHash(
                 pubKeyHash,
                 signatureBytes,
